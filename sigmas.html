@@ -1,0 +1,328 @@
+<!-- Created by E.Nurym , F.Serikbol , T.Rinat -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Card Layout</title>
+    <style>
+        body {
+            background-image: url('img/sigma.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Card Container */
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Space between cards */
+            width: 90%;
+            max-width: 800px;
+        }
+
+        .card {
+            display: flex;
+            align-items: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            gap: 20px; /* Space between image and text */
+        }
+
+        .card img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-content h2 {
+            margin: 0 0 10px 0;
+            font-size: 20px;
+            background-color: yellow;
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .card-content .data {
+            background-color: lightgray;
+            padding: 5px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img src="img/eng.png" alt="Item">
+            <div class="card-content">
+                <h2>Keldibayev Bektas 8.0</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/eng.png" alt="Item">
+            <div class="card-content">
+                <h2>Andreyev Seitzhan 7.5</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/eng.png" alt="Item">
+            <div class="card-content">
+                <h2>Keldibayev Toqtar 7.5</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/eng.png" alt="Item">
+            <div class="card-content">
+                <h2>Kosymbaev Islam 7.5</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/eng.png" alt="Item">
+            <div class="card-content">
+                <h2>Tanbay Rinat 7.5</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/eng.png" alt="Item">
+            <div class="card-content">
+                <h2>Omirzak Amir 7.5</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/eng.png" alt="Item">
+            <div class="card-content">
+                <h2>Amangeldin Yernaz 7.5</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/eng.png" alt="Item">
+            <div class="card-content">
+                <h2>Kogash Igilik 7.5</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/eng.png" alt="Item">
+            <div class="card-content">
+                <h2>Zholdybai Meirzhan 7.0</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/eng.png" alt="Item">
+            <div class="card-content">
+                <h2>Kairgaliev Yerasyl 7.0</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/eng.png" alt="Item">
+            <div class="card-content">
+                <h2>Zhailadin Dias 7.0</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/sat.jpeg" alt="Item">
+            <div class="card-content">
+                <h2>Andreyev Seitzhan 1500</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/sat.jpeg" alt="Item">
+            <div class="card-content">
+                <h2>Zholdybai Meirzhan 1440</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/sat.jpeg" alt="Item">
+            <div class="card-content">
+                <h2>Nurtas Ali 1390</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/sat.jpeg" alt="Item">
+            <div class="card-content">
+                <h2>Kairgaliev Yerasyl 1380</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/sat.jpeg" alt="Item">
+            <div class="card-content">
+                <h2>Omirzak Amir 1350</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/sat.jpeg" alt="Item">
+            <div class="card-content">
+                <h2>Kadirzhan Mansur 1350</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/sat.jpeg" alt="Item">
+            <div class="card-content">
+                <h2>Bekkaliev Zharas 1330</h2>
+        </div>
+        </div>
+        <div class="card">
+            <img src="img/bzhl1.png" alt="Item">
+            <div class="card-content">
+                <h2>BZHL KTL 20-21 Final🥇</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/bzhl1.png" alt="Item">
+            <div class="card-content">
+                <h2>BZHL KTL 23-24 West🏆</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/bzhl1.png" alt="Item">
+            <div class="card-content">
+                <h2>BZHL KTL 23-24 Final🏆</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/daryn.png" alt="Item">
+            <div class="card-content">
+                <h2>Республикалық олимпиаданың 4 кезеңі 23-24 3 ЖҮЛДЕЛІ ОРЫН! 🥇🥈🥉</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/daryn.png" alt="Item">
+            <div class="card-content">
+                <h2>Республикалық олимпиаданың 2 кезеңі 22-23 2 ЖҮЛДЕЛІ ОРЫН! 🥇🥈🥉</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/daryn.png" alt="Item">
+            <div class="card-content">
+                <h2>Республикалық олимпиаданың 2 кезеңі 21-22 3 ЖҮЛДЕЛІ ОРЫН! 🥇🥈🥉</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/daryn.png" alt="Item">
+            <div class="card-content">
+                <h2>Республикалық олимпиаданың 3 кезеңі 24-25 20 ЖҮЛДЕЛІ ОРЫН!🥇🥈🥉</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/daryn.png" alt="Item">
+            <div class="card-content">
+                <h2>Республикалық олимпиаданың 3 кезеңі 23-24 19 ЖҮЛДЕЛІ ОРЫН!🥇🥈🥉</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/daryn.png" alt="Item">
+            <div class="card-content">
+                <h2>Республикалық олимпиаданың 3 кезеңі Oбласт 22-23 15 ЖҮЛДЕЛІ ОРЫН!🥇🥈🥉</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/daryn.png" alt="Item">
+            <div class="card-content">
+                <h2>7 - 8 Республикалық олимпиаданың 3 кезеңі Oбласт 22-23 8 ЖҮЛДЕЛІ ОРЫН!🥇🥈🥉</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/fb.webp" alt="Item">
+            <div class="card-content">
+                <h2>Respa 18 - 19 Football 🥇</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/fb.webp" alt="Item">
+            <div class="card-content">
+                <h2>Respa 22 - 23 Football 🥉</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/fb.webp" alt="Item">
+            <div class="card-content">
+                <h2>Region 22 - 23 Football 🥇</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/fb.webp" alt="Item">
+            <div class="card-content">
+                <h2>Region 21 - 22 Football 🥈</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/bb.webp" alt="Item">
+            <div class="card-content">
+                <h2>Region 23-24 Basketball 🥉</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/bb.webp" alt="Item">
+            <div class="card-content">
+                <h2>Region 24-25 Basketball 🥉</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/vb.webp" alt="Item">
+            <div class="card-content">
+                <h2>Region 23-24 Volleyball 🥈</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/vb.webp" alt="Item">
+            <div class="card-content">
+                <h2>Region 24-25 Volleyball 🥈</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/rab.png" alt="Item">
+            <div class="card-content">
+                <h2>Region 24-25 First challenge winner 🏆</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/imax.jpg" alt="Item">
+            <div class="card-content">
+                <h2>INFO MATRIX ASIA 21-22 🥈</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/imax.jpg" alt="Item">
+            <div class="card-content">
+                <h2>INFO MATRIX ASIA 21-22 🥈</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/kbo.jpg" alt="Item">
+            <div class="card-content">
+                <h2>KBO SENIOR 24 - 25 4 ЖҮЛДЕЛІ ОРЫН!🥇🥈🥉</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/kbo.jpg" alt="Item">
+            <div class="card-content">
+                <h2>KBO SENIOR 22 - 23 2 ЖҮЛДЕЛІ ОРЫН!🥇🥈🥉</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/kbo.jpg" alt="Item">
+            <div class="card-content">
+                <h2>KBO JUNIOR 21 - 22 5 ЖҮЛДЕЛІ ОРЫН!🥇🥈🥉</h2>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/kbo.jpg" alt="Item">
+            <div class="card-content">
+                <h2>KBO JUNIOR 21 - 22 5 ЖҮЛДЕЛІ ОРЫН!🥇🥈🥉</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
